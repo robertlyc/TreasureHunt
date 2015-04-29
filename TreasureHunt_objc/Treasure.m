@@ -10,13 +10,12 @@
 
 @implementation Treasure
 
-- (instancetype)initWithWhat:(NSString *)what usingLatitude:(double)latitude andLongitude:(double)longitude {
-  if (self = [super init]) {
-    self.what = what;
-    self.latitude = latitude;
-    self.longitude = longitude;
-  }
-  return self;
+- (instancetype)initWithWhat:(NSString *)what usingGeoLocation:(GeoLocation *)location {
+    if (self = [super init]) {
+      self.what = what;
+      self.location = location;
+    }
+    return self;
 }
 
 @end

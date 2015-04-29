@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GeoLocation.h"
 
 @interface Treasure : NSObject
 
 @property (nonatomic, strong) NSString *what;
-@property (nonatomic) double latitude;
-@property (nonatomic) double longitude;
+@property (nonatomic) GeoLocation *location;
 
-- (instancetype)initWithWhat:(NSString *)what usingLatitude:(double)latitude andLongitude:(double)longitude;
+- (instancetype)initWithWhat:(NSString *)what usingGeoLocation:(GeoLocation *)location;
 
 @end
