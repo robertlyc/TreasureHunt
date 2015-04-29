@@ -6,10 +6,11 @@
 //  Copyright (c) 2015年 RoBeRt. All rights reserved.
 //
 
+@import MapKit;
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @end
 
 @implementation ViewController
