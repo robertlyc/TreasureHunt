@@ -1,60 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1hb-Fy-AfP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T5F-ct-1eP">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Silicon Valley Hunt-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="GOQ-4n-Ypo">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Rg6-8q-tie" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="HHX-hW-UdQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dFw-eW-qMb"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="2y8-DP-sjE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Dke-BU-JHs">
-                                <rect key="frame" x="0.0" y="-8" width="600" height="600"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fRM-fa-uO9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Dke-BU-JHs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-8" id="B53-0J-sXD"/>
-                            <constraint firstItem="Dke-BU-JHs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Vpr-MX-XWD"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dke-BU-JHs" secondAttribute="bottom" constant="8" symbolic="YES" id="WV6-rX-nZ7"/>
-                            <constraint firstAttribute="trailing" secondItem="Dke-BU-JHs" secondAttribute="trailing" id="s0g-np-73y"/>
+                            <constraint firstItem="fRM-fa-uO9" firstAttribute="leading" secondItem="2y8-DP-sjE" secondAttribute="leading" id="CzB-jb-vtr"/>
+                            <constraint firstAttribute="trailing" secondItem="fRM-fa-uO9" secondAttribute="trailing" id="Ewn-I8-Hcj"/>
+                            <constraint firstItem="dFw-eW-qMb" firstAttribute="top" secondItem="fRM-fa-uO9" secondAttribute="bottom" id="KSJ-wb-TmF"/>
+                            <constraint firstItem="fRM-fa-uO9" firstAttribute="top" secondItem="2y8-DP-sjE" secondAttribute="top" id="wQL-kt-NbU"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Silicon Valley Hunt" id="89f-ZR-eb4"/>
+                    <navigationItem key="navigationItem" title="Silicon Valley Hunt" id="sej-a8-vqJ"/>
                     <connections>
-                        <outlet property="mapView" destination="Dke-BU-JHs" id="k9t-kA-RAF"/>
+                        <outlet property="mapView" destination="fRM-fa-uO9" id="aLZ-sg-V5c"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2DG-aO-cm0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="687" y="1210"/>
+            <point key="canvasLocation" x="847" y="-142"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="c94-cl-cg4">
+        <scene sceneID="Qxt-Bz-mcl">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1hb-Fy-AfP" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T5F-ct-1eP" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e22-i8-RhN">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="P9d-6k-aFR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Blp-F4-v89"/>
+                        <segue destination="Rg6-8q-tie" kind="relationship" relationship="rootViewController" id="4fR-lX-AjA"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3gy-Rg-ziT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t4X-NH-AtY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-110" y="1210"/>
+            <point key="canvasLocation" x="229" y="-142"/>
         </scene>
     </scenes>
 </document>
