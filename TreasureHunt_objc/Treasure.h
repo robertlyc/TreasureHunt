@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GeoLocation.h"
+
+typedef struct {
+  double latitude;
+  double longitude;
+} GeoLocation;
 
 @interface Treasure : NSObject
 
@@ -15,5 +19,6 @@
 @property (nonatomic) GeoLocation *location;
 
 - (instancetype)initWithWhat:(NSString *)what usingGeoLocation:(GeoLocation *)location;
+- (instancetype)initWithWhat:(NSString *)what usingLatitude:(double)latitude andLongitude:(double)longitude;
 
 @end

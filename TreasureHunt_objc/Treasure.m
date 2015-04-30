@@ -18,4 +18,13 @@
     return self;
 }
 
+- (instancetype)initWithWhat:(NSString *)what usingLatitude:(double)latitude andLongitude:(double)longitude {
+  if (self = [super init]) {
+    self.what = what;
+    self.location->latitude = latitude;
+    self.location->longitude = longitude;
+  }
+  return self;
+}
+
 @end

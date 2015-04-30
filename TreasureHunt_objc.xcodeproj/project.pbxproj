@@ -16,7 +16,6 @@
 		E1D002DC1AF0C3C90050A701 /* TreasureHunt_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D002DB1AF0C3C90050A701 /* TreasureHunt_objcTests.m */; };
 		E1E3133C1AF0C95C001E22C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E3133B1AF0C95C001E22C1 /* MapKit.framework */; };
 		E1E3133F1AF0C99A001E22C1 /* Treasure.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E3133E1AF0C99A001E22C1 /* Treasure.m */; };
-		E1E313421AF0CFAF001E22C1 /* GeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E313411AF0CFAF001E22C1 /* GeoLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +45,6 @@
 		E1E3133B1AF0C95C001E22C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E1E3133D1AF0C99A001E22C1 /* Treasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treasure.h; sourceTree = "<group>"; };
 		E1E3133E1AF0C99A001E22C1 /* Treasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Treasure.m; sourceTree = "<group>"; };
-		E1E313401AF0CFAF001E22C1 /* GeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoLocation.h; sourceTree = "<group>"; };
-		E1E313411AF0CFAF001E22C1 /* GeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +94,6 @@
 				E1D002C71AF0C3C90050A701 /* ViewController.m */,
 				E1E3133D1AF0C99A001E22C1 /* Treasure.h */,
 				E1E3133E1AF0C99A001E22C1 /* Treasure.m */,
-				E1E313401AF0CFAF001E22C1 /* GeoLocation.h */,
-				E1E313411AF0CFAF001E22C1 /* GeoLocation.m */,
 				E1D002C91AF0C3C90050A701 /* Main.storyboard */,
 				E1D002CC1AF0C3C90050A701 /* Images.xcassets */,
 				E1D002CE1AF0C3C90050A701 /* LaunchScreen.xib */,
@@ -237,7 +232,6 @@
 				E1D002C81AF0C3C90050A701 /* ViewController.m in Sources */,
 				E1D002C51AF0C3C90050A701 /* AppDelegate.m in Sources */,
 				E1D002C21AF0C3C90050A701 /* main.m in Sources */,
-				E1E313421AF0CFAF001E22C1 /* GeoLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
