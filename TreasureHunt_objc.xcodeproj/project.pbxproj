@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E181B8391AFF452D00A52D35 /* FactTreasure.m in Sources */ = {isa = PBXBuildFile; fileRef = E181B8381AFF452D00A52D35 /* FactTreasure.m */; };
+		E181B83C1AFF460400A52D35 /* HQTreasure.m in Sources */ = {isa = PBXBuildFile; fileRef = E181B83B1AFF460400A52D35 /* HQTreasure.m */; };
 		E1D002C21AF0C3C90050A701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D002C11AF0C3C90050A701 /* main.m */; };
 		E1D002C51AF0C3C90050A701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D002C41AF0C3C90050A701 /* AppDelegate.m */; };
 		E1D002C81AF0C3C90050A701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D002C71AF0C3C90050A701 /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		E1D002DC1AF0C3C90050A701 /* TreasureHunt_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D002DB1AF0C3C90050A701 /* TreasureHunt_objcTests.m */; };
 		E1E3133C1AF0C95C001E22C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E3133B1AF0C95C001E22C1 /* MapKit.framework */; };
 		E1E3133F1AF0C99A001E22C1 /* Treasure.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E3133E1AF0C99A001E22C1 /* Treasure.m */; };
+		E1E313451AF2154C001E22C1 /* HistoryTreasure.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E313441AF2154C001E22C1 /* HistoryTreasure.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E181B8371AFF452D00A52D35 /* FactTreasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactTreasure.h; sourceTree = "<group>"; };
+		E181B8381AFF452D00A52D35 /* FactTreasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactTreasure.m; sourceTree = "<group>"; };
+		E181B83A1AFF460400A52D35 /* HQTreasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTreasure.h; sourceTree = "<group>"; };
+		E181B83B1AFF460400A52D35 /* HQTreasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTreasure.m; sourceTree = "<group>"; };
 		E1D002BC1AF0C3C90050A701 /* TreasureHunt_objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreasureHunt_objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D002C01AF0C3C90050A701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D002C11AF0C3C90050A701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +52,8 @@
 		E1E3133B1AF0C95C001E22C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E1E3133D1AF0C99A001E22C1 /* Treasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treasure.h; sourceTree = "<group>"; };
 		E1E3133E1AF0C99A001E22C1 /* Treasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Treasure.m; sourceTree = "<group>"; };
+		E1E313431AF2154C001E22C1 /* HistoryTreasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTreasure.h; sourceTree = "<group>"; };
+		E1E313441AF2154C001E22C1 /* HistoryTreasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTreasure.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +103,12 @@
 				E1D002C71AF0C3C90050A701 /* ViewController.m */,
 				E1E3133D1AF0C99A001E22C1 /* Treasure.h */,
 				E1E3133E1AF0C99A001E22C1 /* Treasure.m */,
+				E1E313431AF2154C001E22C1 /* HistoryTreasure.h */,
+				E1E313441AF2154C001E22C1 /* HistoryTreasure.m */,
+				E181B8371AFF452D00A52D35 /* FactTreasure.h */,
+				E181B8381AFF452D00A52D35 /* FactTreasure.m */,
+				E181B83A1AFF460400A52D35 /* HQTreasure.h */,
+				E181B83B1AFF460400A52D35 /* HQTreasure.m */,
 				E1D002C91AF0C3C90050A701 /* Main.storyboard */,
 				E1D002CC1AF0C3C90050A701 /* Images.xcassets */,
 				E1D002CE1AF0C3C90050A701 /* LaunchScreen.xib */,
@@ -228,10 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E181B8391AFF452D00A52D35 /* FactTreasure.m in Sources */,
 				E1E3133F1AF0C99A001E22C1 /* Treasure.m in Sources */,
 				E1D002C81AF0C3C90050A701 /* ViewController.m in Sources */,
 				E1D002C51AF0C3C90050A701 /* AppDelegate.m in Sources */,
 				E1D002C21AF0C3C90050A701 /* main.m in Sources */,
+				E1E313451AF2154C001E22C1 /* HistoryTreasure.m in Sources */,
+				E181B83C1AFF460400A52D35 /* HQTreasure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
