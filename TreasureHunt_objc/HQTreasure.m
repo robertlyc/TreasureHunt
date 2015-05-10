@@ -12,7 +12,7 @@
 
 - (instancetype)initWithCompany:(NSString *)company usingLatitude:(double)latitue andLongtitude:(double)longtitude {
   if (self = [super init]) {
-    self.company = company;
+    self.what = [company stringByAppendingString:@" headquarters"];
     self.location->latitude = latitue;
     self.location->longitude = longtitude;
   }
